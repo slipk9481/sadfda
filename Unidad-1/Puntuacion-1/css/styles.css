@@ -3,8 +3,8 @@ main{
 }
 
 body{
-    background-color: #08090D;
-    color: #EEEEEE;
+  background-color: #04101E;
+    color: #D1D6E0; 
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -14,7 +14,7 @@ body{
 }
 
 #principal {
-    background-color: #0F1117;
+    background-color: #131821; 
     width: 80%;
 }
 
@@ -22,13 +22,13 @@ body{
 .galeria {
     width: auto;
     padding: auto;
-    background-color: #14161D;
+    background-color: #181E29;
 }
 
 
 .titulo {
     text-align: center;
-    color: #FCEE0A;
+    color: #E5A93C; 
 }
 
 
@@ -41,27 +41,27 @@ body{
 .galeria-2{
     display: flex;
     flex-direction: row;
-    background-color: #0F1117;
+    background-color: #131821;
     justify-content: center;
 
 }
 
 .galeria .articulo {
-    background-color: #0F1117;
+    background-color: #1D2430; 
     width: 25%;
     height: 120px;
     margin: 15px;
     padding: 15px;
-    border: 1px solid #FCEE0A;
+    border: 1px solid #546244; 
 }
 
 .articulo{
-    background-color: #0F1117;
+    background-color: #1D2430;
     width: 25%;
     height: 120px;
     margin: 15px;
     padding: 15px;
-    border: 1px solid #FCEE0A;
+    border: 1px solid #546244;
 }
 
 .imagen{
@@ -70,21 +70,22 @@ body{
 }
 
 .img-bg {
-    background-image: url("../img/Cyberpunk_Img_1.jpeg");
+    background-image: url("../img/masterespada.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .img-bg-2 {
-    background-image: url("../img/En_la_luna_2.jpg");
+    background-image: url("../img/masterespada2.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .color-dg{
-    background: linear-gradient(to top, #0F1117, #FF2A6D, #FCEE0A);
+  
+    background: linear-gradient(to top, #0B0E14, #546244, #E5A93C);
 }
 
 .imagen-info{
@@ -95,10 +96,10 @@ body{
 
 .menu {
     width: 20%;
-    background-color: #14161D;
-    color: #F2F2F4;
+    background-color: #181E29;
+    color: #D1D6E0;
     padding: 0;
-    border-left: 1px solid #2A2C36;
+    border-left: 1px solid #546244;
     text-align: center;
 }
 
@@ -125,8 +126,8 @@ li{
 /* Footer */
 footer {
     padding: 20px;
-    background-color: #08090D;
-    color: #F2F2F4;
+    background-color: #05070A;
+    color: #D1D6E0;
 }
 
 footer ul {
@@ -136,17 +137,17 @@ footer ul {
 }
 
 footer a {
-    color: #00E5FF;
+    color: #00E5FF; 
 }
 
 footer i{
-    color: #FCEE0A;
+    color: #E5A93C; 
     font-size: 40px;
     font-weight: bolder;
 }
 
 .material-symbols-outlined {
-  color: #FCEE0A;
+  color: #E5A93C;
   font-size: 20px;
   font-weight: bolder;
 }
